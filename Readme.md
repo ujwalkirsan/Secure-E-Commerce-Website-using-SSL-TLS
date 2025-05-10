@@ -142,10 +142,6 @@ Modern browsers will show a security warning for self-signed certificates:
 - Click "Advanced" or "Details"
 - Choose "Proceed to localhost (unsafe)" or similar option
 
-## License
-
-[MIT License](https://opensource.org/licenses/MIT)
-
 ## Acknowledgments
 
 - Flask framework for web development
