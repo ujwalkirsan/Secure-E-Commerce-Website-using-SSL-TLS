@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2>Welcome to our Secure Online Store</h2>
+    <p>All connections to this store are protected with TLS/SSL encryption.</p>
+    
+    <div class="products">
+        {% for product in products %}
+            <div class="product-card">
+                <h3>{{ product.name }}</h3>
+                <p class="price">${{ product.price }}</p>
+                <p>{{ product.description }}</p>
+                <div class="product-actions">
+                    <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn">View Details</a>
+                    <a href="{{ url_for('add_to_cart', product_id=product.id) }}" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
