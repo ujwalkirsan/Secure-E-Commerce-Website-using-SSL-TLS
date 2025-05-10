@@ -2,7 +2,7 @@
 
 A demonstration project showing how to implement a secure Flask web application using TLS/SSL for encrypted communications.
 
-![Secure E-commerce Demo](assets/dashboard.png)
+![Secure E-commerce Demo](assets/flowchart.png)
 
 ## Features
 
@@ -141,7 +141,6 @@ If you encounter certificate problems:
 Modern browsers will show a security warning for self-signed certificates:
 - Click "Advanced" or "Details"
 - Choose "Proceed to localhost (unsafe)" or similar option
-
 ## Acknowledgments
 
 - Flask framework for web development

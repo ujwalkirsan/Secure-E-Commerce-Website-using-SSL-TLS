@@ -1,4 +1,3 @@
-# generate_cert.py
 import os
 from OpenSSL import crypto
 
@@ -9,9 +8,9 @@ def generate_self_signed_cert(cert_file="cert.pem", key_file="key.pem"):
     
     # Create a self-signed cert
     cert = crypto.X509()
-    cert.get_subject().C = "US"
-    cert.get_subject().ST = "State"
-    cert.get_subject().L = "City"
+    cert.get_subject().C = "IN"  # Country code for India (2 letters)
+    cert.get_subject().ST = "Assam"
+    cert.get_subject().L = "Guwahati"
     cert.get_subject().O = "Organization"
     cert.get_subject().OU = "Organizational Unit"
     cert.get_subject().CN = "localhost"
