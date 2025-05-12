@@ -42,4 +42,4 @@ def validate_blockchain(filename, difficulty=4):
         print(f"⚠️ Latest block (Index {latest_block['index']}) is NOT mined properly. Hash: {latest_block['hash']}")
 
 # Run the validator
-validate_blockchain('blockchain_transactions.json', difficulty=5)  # You can adjust difficulty
+validate_blockchain('blockchain_transactions.json', difficulty=3)  # You can adjust difficulty

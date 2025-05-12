@@ -54,7 +54,39 @@
       "session_id": "unknown"
     },
     "previous_hash": "e608a4d206835e5f7261352a600b0f50b657d4fa882e7ef11d3534a4502aae78",
-    "hash": "0000095a378deb30d1eaae9c004f8091ee984e24ea235d9a27d9416dcc131887",
-    "nonce": 47515
+    "hash": "b698abd2939f7e506cdc98898379967361d8eb9a0d8c092fddc8b0cd755f8cab",
+    "nonce": 0
+  },
+  {
+    "index": 4,
+    "timestamp": "2025-05-12 23:27:42.826039",
+    "data": {
+      "transaction_type": "purchase",
+      "total_amount": 100000,
+      "items": [
+        "Laptop"
+      ],
+      "timestamp": "2025-05-12 23:27:42.826018",
+      "session_id": "unknown"
+    },
+    "previous_hash": "b698abd2939f7e506cdc98898379967361d8eb9a0d8c092fddc8b0cd755f8cab",
+    "hash": "06d2700d53bede9f3a4b31b6a39af926956f2e0308371a04a5ee3219a0b69b62",
+    "nonce": 0
+  },
+  {
+    "index": 5,
+    "timestamp": "2025-05-12 23:50:25.414127",
+    "data": {
+      "transaction_type": "purchase",
+      "total_amount": 100000,
+      "items": [
+        "Laptop"
+      ],
+      "timestamp": "2025-05-12 23:50:25.414103",
+      "session_id": "unknown"
+    },
+    "previous_hash": "06d2700d53bede9f3a4b31b6a39af926956f2e0308371a04a5ee3219a0b69b62",
+    "hash": "00003b5f53ae261d56b4f82668c81a3bd0fd62632ccb29e1fc4999e70925d58b",
+    "nonce": 129776
   }
 ]

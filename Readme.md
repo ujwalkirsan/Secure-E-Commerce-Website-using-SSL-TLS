@@ -2,6 +2,12 @@
 
 A demonstration project showing how to implement a secure Flask web application using TLS/SSL for encrypted communications.
 
+## Team Member
+Chandana
+Ujwal 
+Pranav
+Charan
+
 ![Secure E-commerce Demo](assets/flowchart.svg)
 
 ## Features
