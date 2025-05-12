@@ -1,0 +1,60 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2025-05-12 22:33:08.036739",
+    "data": {
+      "message": "E-Commerce Platform Genesis Block"
+    },
+    "previous_hash": "",
+    "hash": "fb806fbaf8d1bf1936fd31d4354b9461ca1740bb0d819956b353343ef353480b",
+    "nonce": 0
+  },
+  {
+    "index": 1,
+    "timestamp": "2025-05-12 22:33:37.691771",
+    "data": {
+      "transaction_type": "purchase",
+      "total_amount": 25000,
+      "items": [
+        "Smartphone"
+      ],
+      "timestamp": "2025-05-12 22:33:37.691743",
+      "session_id": "unknown"
+    },
+    "previous_hash": "fb806fbaf8d1bf1936fd31d4354b9461ca1740bb0d819956b353343ef353480b",
+    "hash": "36d5d14787ab767388d6726b93c8b2b37c08f9addc92745ed808bdb332cfe10b",
+    "nonce": 0
+  },
+  {
+    "index": 2,
+    "timestamp": "2025-05-12 22:39:38.433822",
+    "data": {
+      "transaction_type": "purchase",
+      "total_amount": 8000,
+      "items": [
+        "Headphones"
+      ],
+      "timestamp": "2025-05-12 22:39:38.433811",
+      "session_id": "unknown"
+    },
+    "previous_hash": "36d5d14787ab767388d6726b93c8b2b37c08f9addc92745ed808bdb332cfe10b",
+    "hash": "e608a4d206835e5f7261352a600b0f50b657d4fa882e7ef11d3534a4502aae78",
+    "nonce": 0
+  },
+  {
+    "index": 3,
+    "timestamp": "2025-05-12 22:42:06.780477",
+    "data": {
+      "transaction_type": "purchase",
+      "total_amount": 30000,
+      "items": [
+        "Tablet"
+      ],
+      "timestamp": "2025-05-12 22:42:06.780455",
+      "session_id": "unknown"
+    },
+    "previous_hash": "e608a4d206835e5f7261352a600b0f50b657d4fa882e7ef11d3534a4502aae78",
+    "hash": "0000095a378deb30d1eaae9c004f8091ee984e24ea235d9a27d9416dcc131887",
+    "nonce": 47515
+  }
+]
