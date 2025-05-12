@@ -9,10 +9,10 @@ app.secret_key = secrets.token_hex(16)
 
 # Sample product data
 products = [
-    {"id": 1, "name": "Laptop", "price": 999.99, "description": "Powerful laptop with high performance"},
-    {"id": 2, "name": "Smartphone", "price": 599.99, "description": "Latest smartphone with advanced features"},
-    {"id": 3, "name": "Headphones", "price": 199.99, "description": "Noise cancelling premium headphones"},
-    {"id": 4, "name": "Tablet", "price": 399.99, "description": "Lightweight tablet for productivity"},
+    {"id": 1, "name": "Laptop", "price": 100000, "description": "Powerful laptop with high performance"},
+    {"id": 2, "name": "Smartphone", "price": 25000, "description": "Latest smartphone with advanced features"},
+    {"id": 3, "name": "Headphones", "price": 8000, "description": "Noise cancelling premium headphones"},
+    {"id": 4, "name": "Tablet", "price": 30000, "description": "Lightweight tablet for productivity"},
 ]
 
 @app.route('/')
