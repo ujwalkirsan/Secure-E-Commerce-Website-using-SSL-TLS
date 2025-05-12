@@ -10,7 +10,7 @@
         {% for product in products %}
             <div class="product-card">
                 <h3>{{ product.name }}</h3>
-                <p class="price">${{ product.price }}</p>
+                <p class="price">Rs.{{ product.price }}</p>
                 <p>{{ product.description }}</p>
                 <div class="product-actions">
                     <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn">View Details</a>
